@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Tic Tac Toe</h1>
+        <div id="status" class="status">Player X's Turn</div>
+        <div class="grid">
+            <div onclick="handleClick(this)" id="0" class="cell"></div>
+            <div onclick="handleClick(this)" id="1" class="cell"></div>
+            <div onclick="handleClick(this)" id="2" class="cell"></div>
+            <div onclick="handleClick(this)" id="3" class="cell"></div>
+            <div onclick="handleClick(this)" id="4" class="cell"></div>
+            <div onclick="handleClick(this)" id="5" class="cell"></div>
+            <div onclick="handleClick(this)" id="6" class="cell"></div>
+            <div onclick="handleClick(this)" id="7" class="cell"></div>
+            <div onclick="handleClick(this)" id="8" class="cell"></div>
+        </div>
+        <button onclick="resetGame()" class="reset-btn">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
